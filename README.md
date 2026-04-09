@@ -24,11 +24,7 @@
 - ⚡ Lightweight & **fully client-side**
 - 🔐 Works with DonutSMP’s `/api` system
 
----
 
-## 📸 Preview
-
-> *(Add screenshots or GIFs here for better engagement)*
 
 ---
 
@@ -39,6 +35,7 @@
 - **Fabric Loader**
 - **Fabric API**
 - **Java 21+**
+- **Modmenu**
 
 ### 2. Install the Mod
 ```bash
