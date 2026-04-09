@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "net.donutsmp.balance.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerRendererMixin"
+  ]
+}

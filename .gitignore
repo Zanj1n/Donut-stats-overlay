@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# Loom / dev env
+run/
+remappedSrc/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config (if ever copied into repo)
+**/donutsmp-balance.json

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "donutsmp_balance",
+  "version": "${version}",
+  "name": "DonutSMP Balance",
+  "description": "Shows DonutSMP balance, kills, and deaths above player nametags on official servers (requires /api key).",
+  "icon": "assets/donutsmp_balance/icon.png",
+  "authors": ["Zanjin / Kolbj0rn"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "mixins.donutsmp_balance.json"
+  ],
+  "entrypoints": {
+    "main": ["net.donutsmp.balance.DonutSmpBalanceMod"],
+    "client": ["net.donutsmp.balance.client.DonutSmpBalanceClient"],
+    "modmenu": ["net.donutsmp.balance.client.integration.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
